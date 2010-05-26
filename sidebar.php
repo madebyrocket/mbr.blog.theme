@@ -30,37 +30,8 @@
 
 	<ul id="sb2">
 		<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Sidebar 2') ) : else : ?>
-		<li id="tagcloud"><h3><?php _e('Tags','basic2col'); ?></h3>
-			<?php wp_tag_cloud('smallest=0.8&largest=2&unit=em'); ?>
-		</li>
-
-		<li id="randomlinks"><h3><?php _e('Random links','basic2col'); ?></h3>
-			<ul>
-			<?php wp_list_bookmarks('orderby=rand&categorize=0&limit=10&title_li='); ?>
-			</ul>
-		</li>
 
 
-
-		<li><h3><?php _e('Meta','basic2col'); ?></h3>
-			<ul>
-			<li>	<a href="<?php bloginfo('rss2_url'); ?>">
-				<img src="<?php bloginfo('template_url')?>/gfx/rss.png" alt="RSS" class="rssimg" /> 
-				<?php _e('Posts','basic2col'); ?></a></li>
-			<li>	<a href="<?php bloginfo('comments_rss2_url'); ?>">
-				<img src="<?php bloginfo('template_url')?>/gfx/rss.png" alt="RSS" class="rssimg" />
-				<?php _e('Comments','basic2col'); ?></a></li>
-
-			<?php wp_register(); ?>
-			<li><?php wp_loginout(); ?></li>
-
-			<?php /*add some support for MU*/ if(is_basic2col_wpmu()) { global $current_site; ?>
-			<li><a href="http://<?php echo $current_site->domain . $current_site->path ?>" title="<?php _e('Hosted by','basic2col'); ?> <?php echo $current_site->site_name ?>">
-			<?php echo $current_site->site_name ?></a></li>
-			
-			<?php } wp_meta(); ?>
-			</ul>
-		</li>
 
         <?php endif; ?>
     </ul>
