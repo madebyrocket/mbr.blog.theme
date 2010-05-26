@@ -41,11 +41,11 @@ echo basic2col_doctype();
       <div id="navbar">
         <ul>
           <li class="home"><a href="index.php">home</a></li>
-          <li class="software"><a <?php if($selected=="software"){print("class='current'");} ?> href="software.php">software</a></li>
-          <li class="design"><a <?php if($selected=="design"){print("class='current'");} ?> href="design.php">design</a></li>
-          <li class="development"><a <?php if($selected=="development"){print("class='current'");} ?> href="development.php">development</a></li>
-          <li class="about"><a <?php if($selected=="about"){print("class='current'");} ?> href="about.php">about</a></li>
-          <li class="blog"><a <?php if($selected=="blog"){print("class='current'");} ?> href="blog.php">blog</a></li>
-          <li class="contact"><a <?php if($selected=="contact"){print("class='current'");} ?> href="contact.php">contact</a></li>
+          <li class="software"><a <?php if($selected=="software"){print("class='current'");} ?> href="http://madebyrocket.com/software.php">software</a></li>
+          <li class="design"><a <?php if($selected=="design"){print("class='current'");} ?> href="http://madebyrocket.com/design.php">design</a></li>
+          <li class="development"><a <?php if($selected=="development"){print("class='current'");} ?> href="http://madebyrocket.com/development.php">development</a></li>
+          <li class="about"><a <?php if($selected=="about"){print("class='current'");} ?> href="http://madebyrocket.com/about.php">about</a></li>
+          <li class="blog"><a <?php if($selected=="blog"){print("class='current'");} ?> href="/">blog</a></li>
+          <li class="contact"><a <?php if($selected=="contact"){print("class='current'");} ?> href="http://madebyrocket.com/contact.php">contact</a></li>
         </ul>
       </div>
