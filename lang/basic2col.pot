@@ -1,0 +1,310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: basic2col.pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-30 11:06+0100\n"
+"PO-Revision-Date: 2008-07-30 11:06+0100\n"
+"Last-Translator: Kristin K. Wangen <kristin@kzkw.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: contentheader.php:5
+#: contentfooter.php:18
+msgid "Content"
+msgstr ""
+
+#: contentheader.php:5
+msgid "Sidebar"
+msgstr ""
+
+#: comments.php:3
+msgid "Enter password to view comments."
+msgstr ""
+
+#: comments.php:8
+msgid "RSS Comments"
+msgstr ""
+
+#: comments.php:11
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:11
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:11
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:20
+msgid "Write a comment to"
+msgstr ""
+
+#: comments.php:21
+#: comments.php:96
+msgid "Write comment"
+msgstr ""
+
+#: comments.php:25
+msgid "Trackback link to"
+msgstr ""
+
+#: comments.php:26
+msgid "Trackback"
+msgstr ""
+
+#: comments.php:31
+#: index.php:26
+msgid "Comments closed"
+msgstr ""
+
+#: comments.php:46
+msgid "Comment by "
+msgstr ""
+
+#: comments.php:46
+msgid "Trackback from"
+msgstr ""
+
+#: comments.php:46
+msgid "Pingback from"
+msgstr ""
+
+#: comments.php:66
+#: page.php:11
+#: page-links.php:16
+#: page-front.php:16
+#: page-archives.php:16
+#: single.php:13
+#: archive.php:46
+#: index.php:30
+#: search.php:15
+msgid "Edit"
+msgstr ""
+
+#: comments.php:89
+msgid "You have to be"
+msgstr ""
+
+#: comments.php:89
+msgid "logged in"
+msgstr ""
+
+#: comments.php:89
+msgid "to post a comment"
+msgstr ""
+
+#: comments.php:99
+msgid "You are logged in as"
+msgstr ""
+
+#: comments.php:101
+msgid "Logout"
+msgstr ""
+
+#: comments.php:106
+msgid "Name"
+msgstr ""
+
+#: comments.php:109
+msgid "Email"
+msgstr ""
+
+#: comments.php:112
+msgid "URL"
+msgstr ""
+
+#: comments.php:112
+msgid "optional"
+msgstr ""
+
+#: comments.php:120
+msgid "Your comment"
+msgstr ""
+
+#: comments.php:126
+msgid "Submit"
+msgstr ""
+
+#: page.php:16
+#: single.php:18
+msgid "Pages:"
+msgstr ""
+
+#: page.php:21
+msgid "Subpages"
+msgstr ""
+
+#: page.php:30
+msgid "Updated on"
+msgstr ""
+
+#: page-front.php:22
+msgid "Recent posts"
+msgstr ""
+
+#: page-archives.php:21
+#: sidebar.php:28
+msgid "Categories"
+msgstr ""
+
+#: single.php:24
+msgid "Published"
+msgstr ""
+
+#: single.php:24
+#: index.php:18
+msgid "Filed in"
+msgstr ""
+
+#: single.php:25
+msgid "Tags: "
+msgstr ""
+
+#: archive.php:7
+#: archive.php:13
+#: archive.php:16
+#: archive.php:19
+msgid "Archives for"
+msgstr ""
+
+#: archive.php:10
+msgid "Posts tagged"
+msgstr ""
+
+#: archive.php:13
+#: index.php:10
+msgid "F jS, Y"
+msgstr ""
+
+#: archive.php:16
+msgid "F, Y"
+msgstr ""
+
+#: archive.php:19
+#: contentfooter.php:19
+msgid "Y"
+msgstr ""
+
+#: archive.php:29
+msgid "Posts by"
+msgstr ""
+
+#: archive.php:32
+msgid "Archives"
+msgstr ""
+
+#: archive.php:54
+#: search.php:23
+msgid "Full story"
+msgstr ""
+
+#: contentfooter.php:5
+msgid "Next &raquo;"
+msgstr ""
+
+#: contentfooter.php:5
+msgid "&laquo; Previous"
+msgstr ""
+
+#: contentfooter.php:20
+msgid "Valid XHTML 1.0"
+msgstr ""
+
+#: contentfooter.php:22
+msgid "Valid CSS 2"
+msgstr ""
+
+#: contentfooter.php:24
+msgid "Top"
+msgstr ""
+
+#: contentfooter.php:28
+msgid "Theme: Basic2Col by Kristin K. Wangen"
+msgstr ""
+
+#: contentfooter.php:32
+msgid "Powered by WordPress"
+msgstr ""
+
+#: contentfooter.php:35
+#: sidebar.php:61
+msgid "Hosted by"
+msgstr ""
+
+#: index.php:13
+msgid "continued &raquo;"
+msgstr ""
+
+#: index.php:23
+msgid "Comments to"
+msgstr ""
+
+#: index.php:24
+#: sidebar.php:55
+msgid "Comments"
+msgstr ""
+
+#: search.php:6
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:111
+msgid "- Tags:  "
+msgstr ""
+
+#: functions.php:120
+msgid "404 Not Found"
+msgstr ""
+
+#: functions.php:121
+msgid "Whatever you were looking for can not be found"
+msgstr ""
+
+#: functions.php:128
+msgid "Welcome to "
+msgstr ""
+
+#: functions.php:139
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: functions.php:233
+#: functions.php:236
+#: functions.php:242
+#: sidebar.php:15
+#: sidebar.php:18
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:8
+msgid "Home"
+msgstr ""
+
+#: sidebar.php:24
+msgid "Pages"
+msgstr ""
+
+#: sidebar.php:36
+msgid "Tags"
+msgstr ""
+
+#: sidebar.php:40
+msgid "Random links"
+msgstr ""
+
+#: sidebar.php:48
+msgid "Meta"
+msgstr ""
+
+#: sidebar.php:52
+msgid "Posts"
+msgstr ""
+
