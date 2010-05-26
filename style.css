@@ -663,29 +663,38 @@ h2#pagetitle {
 	
 	}
 
-#sidebar {		
-	
-	border-left: 1px solid #d3d2d3;
-	width: 250px;
-	float: right;
-	margin-top: 12px;
-	padding-left: 28px;
-	
-	}
+
+#sidebar {
+
+        border-left: 1px solid #d3d2d3;
+        width: 250px;
+        float: right;
+        margin-top: 12px;
+        padding-left: 28px;
+
+        }
+
+#sidebar li, #sidebar h2 {
+
+        font-size:1.14em;
+        line-height:1.4em;
+        color:#7f7f7f;
+        padding-left: 0px;
+
+        }
+
 
 #sidebar li {
+        margin-bottom: 20px;
+}
+
+#sidebar {
+
+        margin-bottom: 30px;
+
+        }
 	
-	font-size:1.14em;
-	line-height:1.4em;
-	color:#7f7f7f;
-		
-	}
-	
-#sidebar {		
-	
-	margin-bottom: 30px;
-	
-	}
+
 
 #sidebar #s {		
 	
