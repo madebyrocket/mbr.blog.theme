@@ -1,5 +1,5 @@
       <div id="footer">
-        <p><span class="copyright">&copy; 2009 rocket</span><a href="http://twitter.com/madebyrocket">follow us</a></p>
+        <p><span class="copyright">&copy; 2009-2010 rocket</span><a href="http://twitter.com/madebyrocket">follow us</a></p>
         <a href="http://twitter.com/madebyrocket"><img src="<?= bloginfo('template_directory'); ?>/images/twitter.png" width="16" height="16" alt="twitter" /></a>
       </div>
     </div>
