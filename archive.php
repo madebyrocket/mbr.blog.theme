@@ -47,6 +47,8 @@
         	
         	<p class="postmeta">
         		<?php _e('Posted in','basic2col'); ?> <?php the_category(',') ?>
+                        by <?php the_author() ?>
+
         		<?php basic2col_tags_front(); ?>		
             
             <?php if(comments_open() || pings_open()) : ?>
