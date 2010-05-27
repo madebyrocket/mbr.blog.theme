@@ -50,3 +50,7 @@ echo basic2col_doctype();
           <li class="contact"><a <?php if($selected=="contact"){print("class='current'");} ?> href="http://madebyrocket.com/contact.php">contact</a></li>
         </ul>
       </div>
+
+<div id="title"><img src="<?php bloginfo('template_directory'); ?>/images/titles/title_blog.png" width="600" height="64" alt="we like writing" />
+  <h1>We love the codes because they do what we say. We'll post what we <code>git push</code> here.</h1>
+</div>
