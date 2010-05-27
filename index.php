@@ -16,7 +16,6 @@
         	
         	<div class="postcontent">
             <?php the_excerpt() ?>
-            <a href="<?php the_permalink() ?>" class="read-more">Read More...</a>
         	</div>
         	
         	<p class="postmeta">
