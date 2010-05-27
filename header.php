@@ -28,6 +28,7 @@ echo basic2col_doctype();
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php wp_head(); ?>    
+    <script src="http://madebyrocket.com/mint/?js" type="text/javascript"></script>
   </head>
     
   <body class="<?php do_action('basic2col_bodyclass'); ?>">    
