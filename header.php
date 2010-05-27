@@ -41,7 +41,7 @@ echo basic2col_doctype();
     <div id="container">
       <div id="navbar">
         <ul>
-          <li class="home"><a href="index.php">home</a></li>
+          <li class="home"><a href="http://madebyrocket.com">home</a></li>
           <li class="software"><a href="http://madebyrocket.com/software.php">software</a></li>
           <li class="design"><a href="http://madebyrocket.com/design.php">design</a></li>
           <li class="development"><a href="http://madebyrocket.com/development.php">development</a></li>
