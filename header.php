@@ -51,6 +51,6 @@ echo basic2col_doctype();
         </ul>
       </div>
 
-<div id="title"><img src="<?php bloginfo('template_directory'); ?>/images/titles/title_blog.png" width="700" height="64" alt="we like writing" />
+<div id="title"><img src="<?php bloginfo('template_directory'); ?>/images/titles/title_blog.png" width="600" height="64" alt="we like writing" />
   <h1><?php bloginfo('description'); ?></h1>
 </div>
