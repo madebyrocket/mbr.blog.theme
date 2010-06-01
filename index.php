@@ -15,7 +15,7 @@
         	</div>
         	
         	<div class="postcontent">
-            <?php the_excerpt() ?>
+            <?php the_content() ?>
         	</div>
         	
         	<p class="postmeta">

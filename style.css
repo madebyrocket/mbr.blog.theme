@@ -393,20 +393,20 @@ h5 a:hover {
 }
 
 #text p a, #textServices p a {
-	color:#999;
+	color:#0099FF;
 	text-decoration:none;
 }
 
 #text p a:hover, #textServices p a:hover {
-	color:#666;
+    text-decoration: underline;
 }
 
 #text h1, #textServices h1 {
-	font-size:2em;
+	font-size:2.4em;
 	font-weight:bold;
 	color:#00a9e2;
 	text-align:left;
-	line-height:2.4em;
+	padding-bottom:10px;
 }
 
 #text h1 a, #textServices h1 a {
@@ -487,6 +487,11 @@ h5 a:hover {
 
 /* -------------- wordpress -------------- */
 
+.alignright {
+    float: right;
+}
+
+
 h1 code {		
 	
 	font-size: 1.3em;
@@ -516,14 +521,15 @@ h2#pagetitle {
 
 .post {		
 	
-	width: 550px;
-	margin-bottom: 30px;
+	width: 625px;
+	margin-bottom: 20px;
+    padding-bottom: 35px;
 	
 	}
 
 .post .post-header {		
 	
-	width: 550px;
+	width: 625px;
 	
 	}
 
@@ -586,7 +592,7 @@ h2#pagetitle {
 	padding: 10px;
 	border: 1px solid #d7d7d7;
 	margin-right: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	float: left;
 	margin-left: 50px;
 	-webkit-border-radius: 5px;
@@ -594,6 +600,11 @@ h2#pagetitle {
 	border-radius: 5px;
 	
 	}
+    
+
+#textServices .post .postcontent .wp-caption.alignright {	    
+    float: right;
+}
 	
 #textServices .post .postcontent .wp-caption img {
 	
@@ -635,13 +646,16 @@ h2#pagetitle {
 	margin-bottom: 1em;
 	
 	}
-		
-#textServices .post .postmeta.single {
+
+#textServices .post .postmeta {
 	
 	border-top: 1px solid #d7d7d7;
 	padding-left: 0px;
 	margin-left: 50px;
 	padding-top: 10px;
+    font-size: .95em;
+    text-align: right;
+    padding-right: 10px;
 	
 	}	
 	
@@ -667,7 +681,7 @@ h2#pagetitle {
 #sidebar {
 
         border-left: 1px solid #d3d2d3;
-        width: 250px;
+        width: 175px;
         float: right;
         margin-top: 12px;
         padding-left: 28px;
@@ -677,15 +691,26 @@ h2#pagetitle {
 #sidebar li, #sidebar h2 {
 
         font-size:1.14em;
-        line-height:1.4em;
         color:#7f7f7f;
-        padding-left: 0px;
 
         }
+        
+#sidebar label[for=s] {
+    display: none;
+}
 
+#sidebar h2 {
+        padding-left: 0px;
+        padding-top: 10px;
+}
+
+#sidebar ul {
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
 
 #sidebar li {
-        margin-bottom: 20px;
+        padding-top: 3px;
 }
 
 #sidebar {
@@ -694,7 +719,13 @@ h2#pagetitle {
 
         }
 	
+#sidebar input[type=text] {
+    width: 75px;
+}
 
+#sidebar input.submit {
+    font-size: 1em;
+}
 
 #sidebar #s {		
 	
@@ -765,7 +796,6 @@ h2#pagetitle {
 	
 #commentform li {		
 	
-	margin-bottom: 5px;
 	
 	}
 
